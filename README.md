@@ -70,6 +70,16 @@ Password Wordlist: A text file with one password per line. Example:
     123456
     admin
 
+### Axiom Support
+
+```
+» cat ~/.axiom/modules/msforce.json
+[{
+        "command":"cat input | msforce -u ~/lists/mysql-user.txt -p ~/lists/mysql-pass.txt | anew output",
+        "ext":"txt"
+}]
+```
+
 ### Known Issues
 
 Let me know?
